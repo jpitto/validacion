@@ -1,0 +1,438 @@
+{
+	"info": {
+		"_postman_id": "2380502f-631e-4f07-9e7a-587d6ab9df4d",
+		"name": "Truora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30701196",
+		"_collection_link": "https://crimson-shuttle-73506.postman.co/workspace/Team-Workspace~a287e082-d1e0-492f-8b63-db6de03235cb/collection/30701196-2380502f-631e-4f07-9e7a-587d6ab9df4d?action=share&source=collection_link&creator=30701196"
+	},
+	"item": [
+		{
+			"name": "https://api.validations.truora.com/v1/validations",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Truora-API-Key",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiIiwiYWRkaXRpb25hbF9kYXRhIjoie30iLCJjbGllbnRfaWQiOiJUQ0kzY2EzNDFjNGQ5Njc2MDQ2ZjI2ZDFmOGJkMDQyMDBjNyIsImV4cCI6MzI3MzU4ODMwNCwiZ3JhbnQiOiIiLCJpYXQiOjE2OTY3ODgzMDQsImlzcyI6Imh0dHBzOi8vY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdXMtZWFzdC0xXzZRcXBPblF2NyIsImp0aSI6IjM0ZTRhYjc3LTQxYjMtNDIxMy04N2Q4LWZhMDI5M2FmOGQyYSIsImtleV9uYW1lIjoicHJ1ZWJhX3RlY25pY2FfaGFtYWwiLCJrZXlfdHlwZSI6ImJhY2tlbmQiLCJ1c2VybmFtZSI6InRydW9yYW5hb3MtcHJ1ZWJhX3RlY25pY2FfaGFtYWwifQ.gpyfPT-DprI3s3Fah7--46sr-ZkGWduJx3L_b9zmWA4",
+						"type": "text"
+					},
+					{
+						"key": "ie30iLCJjbGllbnRfaWQiOiJUQ0kzY2EzNDFjNGQ5Njc2MDQ2ZjI2ZDFmOGJkMDQyMDBjNyIsImV",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "4cCI6MzI3MzU4ODMwNCwiZ3JhbnQiOiIiLCJpYXQiOjE2OTY3ODgzMDQsImlzcyI6Imh0dHBzOi8",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "vY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdXMtZWFzdC0xXzZRcXBPblF2N",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "yIsImp0aSI6IjM0ZTRhYjc3LTQxYjMtNDIxMy04N2Q4LWZhMDI5M2FmOGQyYSIsImtleV9uYW1lIjoic",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "HJ1ZWJhX3RlY25pY2FfaGFtYWwiLCJrZXlfdHlwZSI6ImJhY2tlbmQiLCJ1c2VybmFtZSI6InRydW9yY",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "W5hb3MtcHJ1ZWJhX3RlY25pY2FfaGFtYWwifQ.gpyfPT-DprI3s3Fah7--46sr-ZkGWduJx3L_b9zmW",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "A4",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "type",
+							"value": "document-validation",
+							"description": "tipo de validacion",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "CO",
+							"type": "text"
+						},
+						{
+							"key": "document_type",
+							"value": "national-id",
+							"type": "text"
+						},
+						{
+							"key": "user_authorized",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "account_id",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://api.validations.truora.com/v1/validations"
+			},
+			"response": []
+		},
+		{
+			"name": "forntalcedula",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Truora-API-Key",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiIiwiYWRkaXRpb25hbF9kYXRhIjoie30iLCJjbGllbnRfaWQiOiJUQ0kzY2EzNDFjNGQ5Njc2MDQ2ZjI2ZDFmOGJkMDQyMDBjNyIsImV4cCI6MzI3MzU4ODMwNCwiZ3JhbnQiOiIiLCJpYXQiOjE2OTY3ODgzMDQsImlzcyI6Imh0dHBzOi8vY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdXMtZWFzdC0xXzZRcXBPblF2NyIsImp0aSI6IjM0ZTRhYjc3LTQxYjMtNDIxMy04N2Q4LWZhMDI5M2FmOGQyYSIsImtleV9uYW1lIjoicHJ1ZWJhX3RlY25pY2FfaGFtYWwiLCJrZXlfdHlwZSI6ImJhY2tlbmQiLCJ1c2VybmFtZSI6InRydW9yYW5hb3MtcHJ1ZWJhX3RlY25pY2FfaGFtYWwifQ.gpyfPT-DprI3s3Fah7--46sr-ZkGWduJx3L_b9zmWA4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "vPx5EAshD/CCfrontal.jpeg"
+					}
+				},
+				"url": {
+					"raw": "https://files.truora.com/documents-recognition/TCI3ca341c4d9676046f26d1f8bd04200c7/TCI3ca341c4d9676046f26d1f8bd04200c7-123/CO/national-id/DCR5a97eb2d2137ac4c3a008f4a76e65cb7_front.png?max-size=31457280&method=PUT&retries=1&token=3eef9122e6825c5fe35f6f9586b98080137585e083cbe6af80ed03ff328f39ef&Expires=1698110709&Signature=YPngHTkYYKGtvRAsaB08hMJjahzRWki8E4sur3ZvI1fbapYYou5pLgjo8A8LaKcbFN6C-lb~nwHHm0izXplhE7-KOfZPoN6Mj77v9IXLHqtOTH7yWS4GRzBGjeZTgjNyotlU5LEg--B-Dc8JRtF1MVxAN~U3T8996Pz8vZccXCOeBFdTL9bttFTK0XE0a-m3DIadPWpbhXgL3X16mQ7W2s1ezJ1A0UEdUg5whMzFsUzzcksLZdcAWZTjv6jT4z6S3hzzrOXVk9NeLdz7rQAYqmKvfg9kRVnKLzPCdPIocC~5~h8CYHHRPBRxo5eXTnEFiJ0d~Yj6fskY0I~W2ciTAQ__&Key-Pair-Id=APKAIKAXK7MMJ6HWOZZA",
+					"protocol": "https",
+					"host": [
+						"files",
+						"truora",
+						"com"
+					],
+					"path": [
+						"documents-recognition",
+						"TCI3ca341c4d9676046f26d1f8bd04200c7",
+						"TCI3ca341c4d9676046f26d1f8bd04200c7-123",
+						"CO",
+						"national-id",
+						"DCR5a97eb2d2137ac4c3a008f4a76e65cb7_front.png"
+					],
+					"query": [
+						{
+							"key": "max-size",
+							"value": "31457280"
+						},
+						{
+							"key": "method",
+							"value": "PUT"
+						},
+						{
+							"key": "retries",
+							"value": "1"
+						},
+						{
+							"key": "token",
+							"value": "3eef9122e6825c5fe35f6f9586b98080137585e083cbe6af80ed03ff328f39ef"
+						},
+						{
+							"key": "Expires",
+							"value": "1698110709"
+						},
+						{
+							"key": "Signature",
+							"value": "YPngHTkYYKGtvRAsaB08hMJjahzRWki8E4sur3ZvI1fbapYYou5pLgjo8A8LaKcbFN6C-lb~nwHHm0izXplhE7-KOfZPoN6Mj77v9IXLHqtOTH7yWS4GRzBGjeZTgjNyotlU5LEg--B-Dc8JRtF1MVxAN~U3T8996Pz8vZccXCOeBFdTL9bttFTK0XE0a-m3DIadPWpbhXgL3X16mQ7W2s1ezJ1A0UEdUg5whMzFsUzzcksLZdcAWZTjv6jT4z6S3hzzrOXVk9NeLdz7rQAYqmKvfg9kRVnKLzPCdPIocC~5~h8CYHHRPBRxo5eXTnEFiJ0d~Yj6fskY0I~W2ciTAQ__"
+						},
+						{
+							"key": "Key-Pair-Id",
+							"value": "APKAIKAXK7MMJ6HWOZZA"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "forntalcedula",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Truora-API-Key",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiIiwiYWRkaXRpb25hbF9kYXRhIjoie30iLCJjbGllbnRfaWQiOiJUQ0kzY2EzNDFjNGQ5Njc2MDQ2ZjI2ZDFmOGJkMDQyMDBjNyIsImV4cCI6MzI3MzU4ODMwNCwiZ3JhbnQiOiIiLCJpYXQiOjE2OTY3ODgzMDQsImlzcyI6Imh0dHBzOi8vY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdXMtZWFzdC0xXzZRcXBPblF2NyIsImp0aSI6IjM0ZTRhYjc3LTQxYjMtNDIxMy04N2Q4LWZhMDI5M2FmOGQyYSIsImtleV9uYW1lIjoicHJ1ZWJhX3RlY25pY2FfaGFtYWwiLCJrZXlfdHlwZSI6ImJhY2tlbmQiLCJ1c2VybmFtZSI6InRydW9yYW5hb3MtcHJ1ZWJhX3RlY25pY2FfaGFtYWwifQ.gpyfPT-DprI3s3Fah7--46sr-ZkGWduJx3L_b9zmWA4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "file",
+							"file": {
+								"src": "-mXtyDZwS/CCfrontal.jpeg"
+							}
+						},
+						"url": {
+							"raw": "https://files.truora.com/documents-recognition/TCI3ca341c4d9676046f26d1f8bd04200c7/TCI3ca341c4d9676046f26d1f8bd04200c7-456/CO/national-id/DCRfa7017a47f0459b9ba1cffd51b94e08a_front.png?max-size=31457280&method=PUT&retries=1&token=0f6a1b4b0a042a1dd3d71e7281ae87c349e1660b88743aebc8a1ec4ee25119e5&Expires=1698248858&Signature=i4hzABPM5WFoNSWM6CaRs0~0-6raa1yEgTzZuazaNhQbO-pcVuhvdQbv1SPN6XiWA986VU2evkdiXjj8Du62eRWDP-X0yyCBNuDuMzKtZI9p1Sw9VXz942LL~1gabpzkvaSj7-VCNItwj3mW-G29kaHEQ7ToP4EUuCpU0lP9ECvTw2Hz8LioOSL6UvaMrpPrv5uF8JbtkACgWOK7grzCyPiaBCm3RJvPQNkiOUvZ-~XPa1m~AJ3RLFTtLwvoVguqypFWl3OAq09EtmNckGNAZPs2yn15-AnDh74sgx834o9JElp4rwFPxgd4Ydb5azVEy8GePHX71SZoshN1zYwpCg__&Key-Pair-Id=APKAIKAXK7MMJ6HWOZZA",
+							"protocol": "https",
+							"host": [
+								"files",
+								"truora",
+								"com"
+							],
+							"path": [
+								"documents-recognition",
+								"TCI3ca341c4d9676046f26d1f8bd04200c7",
+								"TCI3ca341c4d9676046f26d1f8bd04200c7-456",
+								"CO",
+								"national-id",
+								"DCRfa7017a47f0459b9ba1cffd51b94e08a_front.png"
+							],
+							"query": [
+								{
+									"key": "max-size",
+									"value": "31457280"
+								},
+								{
+									"key": "method",
+									"value": "PUT"
+								},
+								{
+									"key": "retries",
+									"value": "1"
+								},
+								{
+									"key": "token",
+									"value": "0f6a1b4b0a042a1dd3d71e7281ae87c349e1660b88743aebc8a1ec4ee25119e5"
+								},
+								{
+									"key": "Expires",
+									"value": "1698248858"
+								},
+								{
+									"key": "Signature",
+									"value": "i4hzABPM5WFoNSWM6CaRs0~0-6raa1yEgTzZuazaNhQbO-pcVuhvdQbv1SPN6XiWA986VU2evkdiXjj8Du62eRWDP-X0yyCBNuDuMzKtZI9p1Sw9VXz942LL~1gabpzkvaSj7-VCNItwj3mW-G29kaHEQ7ToP4EUuCpU0lP9ECvTw2Hz8LioOSL6UvaMrpPrv5uF8JbtkACgWOK7grzCyPiaBCm3RJvPQNkiOUvZ-~XPa1m~AJ3RLFTtLwvoVguqypFWl3OAq09EtmNckGNAZPs2yn15-AnDh74sgx834o9JElp4rwFPxgd4Ydb5azVEy8GePHX71SZoshN1zYwpCg__"
+								},
+								{
+									"key": "Key-Pair-Id",
+									"value": "APKAIKAXK7MMJ6HWOZZA"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "85"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-amz-id-2",
+							"value": "P9LXX8HLqik9zOuPHwHG1tsrYuNBLh/INgQMx0owK1Du2Pf647BlBMe6NhbOolKFh/dDwfHA/P4="
+						},
+						{
+							"key": "x-amz-request-id",
+							"value": "SYQ40NR6CTJQVNWG"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 25 Oct 2023 15:37:57 GMT"
+						},
+						{
+							"key": "x-amz-version-id",
+							"value": "QD06rwMrlv4xSVM7pvjEMLlXSqz7hY4y"
+						},
+						{
+							"key": "x-amz-server-side-encryption",
+							"value": "AES256"
+						},
+						{
+							"key": "ETag",
+							"value": "\"fbb8d84e309b661f85c54da06afe16a5\""
+						},
+						{
+							"key": "Server",
+							"value": ""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubdomains; preload"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self' https://checks.truora.com; connect-src 'self' wss://nexus-websocket-a.intercom.io https://checks.truora.com https://api.checks.truora.com https://api.account.truora.com https://analytics.google.com https://api-iam.intercom.io https://cognito-idp.us-east-1.amazonaws.com https://cognito-identity.us-east-1.amazonaws.com https://api-iam.intercom.io/messenger/web/ping https://stats.g.doubleclick.net https://truora-pdfs-production.s3.amazonaws.com/ https://truora-reports-production.s3.amazonaws.com/ https://truora-history-reports-production.s3.amazonaws.com/ https://truora-attachments-production.s3.amazonaws.com/ https://www.google-analytics.com https://pagead2.googlesyndication.com/pagead/buyside_topics/set/ https://*.hotjar.com:* https://vc.hotjar.io:* https://surveystats.hotjar.io wss://*.hotjar.com https://content.hotjar.io/ https://*.mouseflow.com https://*.jotform.com https://*.intercom.io https://*.intercomcdn.com https://*.intercomcdn.eu https://*.intercomusercontent.com wss://*.intercom.io https://api.mixpanel.com https://api-js.mixpanel.com; child-src 'self' https://intercom-sheets.com https://www.intercom-reporting.com https://www.youtube.com https://player.vimeo.com https://fast.wistia.net; font-src 'unsafe-inline' 'self' https://fonts.gstatic.com https://use.fontawesome.com https://js.intercomcdn.com https://cdn.jsdelivr.net https://fonts.gstatic.com/s/poppins/v15 https://script.hotjar.com https://*.mouseflow.com https://*.jotform.com https://*.intercomcdn.com; frame-src 'self' data: https://www.google.com https://www.google.com/recaptcha https://vars.hotjar.com https://recaptcha.net https://www.youtube.com https://*.mouseflow.com https://*.jotform.com https://intercom-sheets.com https://form.typeform.com https://td.doubleclick.net/; img-src 'self' https://www.google.com.co https://checks.staging.truora.com https://checks.truorastaging.com https://static.intercomassets.com/assets/ https://js.intercomcdn.com/images/ https://static.intercomassets.com/avatars/ https://downloads.intercomcdn.com/i/o/ https://stats.g.doubleclick.net https://script.hotjar.com https://www.google-analytics.com https://*.mouseflow.com https://*.jotform.com https://*.intercomcdn.com https://*.intercomassets.com https://*.intercomcdn.eu https://*.intercomusercontent.com  https://*.intercom.io https://*.intercom-attachments-1.com https://*.intercom-attachments.eu https://*.intercom-attachments.com https://*.intercom-attachments-2.com https://*.intercom-attachments-3.com https://*.intercom-attachments-4.com https://*.intercom-attachments-5.com https://*.intercom-attachments-6.com https://*.intercom-attachments-7.com https://*.intercom-attachments-8.com https://*.intercom-attachments-9.com https://*.intercomassets.eu https://cdn.mxpnl.com/ https://fonts.gstatic.com data:;; media-src 'self' https://js.intercomcdn.com ; script-src 'self' https://js.intercomcdn.com/frame.8d2dca17.js https://recaptcha.net/recaptcha/api.js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/js https://recaptcha.net https://www.gstatic.com https://cdn.mouseflow.com https://static.hotjar.com/ https://script.hotjar.com/ https://*.mouseflow.com https://*.jotform.com https://api.mixpanel.com https://api-js.mixpanel.com https://www.googletagmanager.com https://js.intercomcdn.com/shim.latest.js https://widget.intercom.io https://js.intercomcdn.com https://www.googleadservices.com/pagead/conversion_async.js https://googleads.g.doubleclick.net/pagead/ https://widget.intercom.io/widget/pitqg5hw 'sha256-LKoNBcF1OY/S4y4J0jeJzCrnLKZ4Wk7LWUmNqt6R+iI=' 'sha256-YUFaTVu0Uc2/pGPqlXRJizgUNFmCNBT+G1LCgVL0hbM=' 'sha256-zSa/artz6hMG4iXLbB8+bpb2psqKXS3H2PTRWuicKj8=' 'sha256-rWM5hT7Qmie18hTCjZvGeL2JxSQZ0CCvcO+wNQlAb6k=' 'sha256-xz0V5zAMkAruFyzi+hmEjHFajQu6B6k67S9W8yN4iKY=' 'sha256-rymlRubgQucvp0EYoBq5LLHywoqJMFjspGDv++Fqeuk=' 'sha256-rwMOiOeVICH7/Cjy5SkreID3OOi5HTrit357k22hUDQ=' 'sha256-FDyPg8CqqIpPAfGVKx1YeKduyLs0ghNYWII21wL+7HM='; style-src 'unsafe-inline' 'self' https://use.fontawesome.com https://fonts.googleapis.com https://maxcdn.bootstrapcdn.com https://cdn.jsdelivr.net; object-src 'none'; manifest-src 'self' ; worker-src 'none'"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 58d3a6a8551ccf9c7d205fa93b6b9630.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "IAD55-P1"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "Q9EL4VA8aStIYoTxxaNl93rNsL4rkKt5OlEJ68Iwe2OUepoxCMhtlg=="
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 10200,\n    \"http_code\": 200,\n    \"message\": \"Successfully uploaded\"\n}"
+				}
+			]
+		},
+		{
+			"name": "reversecedula",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Truora-API-Key",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiIiwiYWRkaXRpb25hbF9kYXRhIjoie30iLCJjbGllbnRfaWQiOiJUQ0kzY2EzNDFjNGQ5Njc2MDQ2ZjI2ZDFmOGJkMDQyMDBjNyIsImV4cCI6MzI3MzU4ODMwNCwiZ3JhbnQiOiIiLCJpYXQiOjE2OTY3ODgzMDQsImlzcyI6Imh0dHBzOi8vY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdXMtZWFzdC0xXzZRcXBPblF2NyIsImp0aSI6IjM0ZTRhYjc3LTQxYjMtNDIxMy04N2Q4LWZhMDI5M2FmOGQyYSIsImtleV9uYW1lIjoicHJ1ZWJhX3RlY25pY2FfaGFtYWwiLCJrZXlfdHlwZSI6ImJhY2tlbmQiLCJ1c2VybmFtZSI6InRydW9yYW5hb3MtcHJ1ZWJhX3RlY25pY2FfaGFtYWwifQ.gpyfPT-DprI3s3Fah7--46sr-ZkGWduJx3L_b9zmWA4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "uaLZdomGq/ccreversa.jpeg"
+					}
+				},
+				"url": {
+					"raw": "https://files.truora.com/documents-recognition/TCI3ca341c4d9676046f26d1f8bd04200c7/TCI3ca341c4d9676046f26d1f8bd04200c7-123/CO/national-id/DCR5a97eb2d2137ac4c3a008f4a76e65cb7_reverse.png?max-size=31457280&method=PUT&retries=1&token=856820d9618b417b0d996ce6b8625b41558feb8839b32e5ae58c5ac2b7bcb982&Expires=1698110709&Signature=GAX5Z-Xlw5TYPzOaCdNTjXhcM4l6fJuGPEEqK3XZt6PWDbm5xgK1dwrR9ag1sYF0storJucE7aJffb96irhIwj2QWJ1XpKwUCm~KpwwtWNSyG7F8PyK0XUuXfP8UUkvOP9hLnaYXtPo2-20qqkdXcDffKihkm9pZ1LM6mi-92wt2VVQljkhNPkfpA0js~uqe9qT3O4TZhc4pMRuPK-EywXWk6jQPwu9qAF3MjK1gOpluA6fyqtbCvb7EDPmngQ5k4OhWp-kPM4e3Z8fhiSWzoG3pAdwkd4TKXlhEcZqOIqe7uvaB~DhHeKe5U09wp0eyJpFG9wLYv~kaUUkfkySdng__&Key-Pair-Id=APKAIKAXK7MMJ6HWOZZA",
+					"protocol": "https",
+					"host": [
+						"files",
+						"truora",
+						"com"
+					],
+					"path": [
+						"documents-recognition",
+						"TCI3ca341c4d9676046f26d1f8bd04200c7",
+						"TCI3ca341c4d9676046f26d1f8bd04200c7-123",
+						"CO",
+						"national-id",
+						"DCR5a97eb2d2137ac4c3a008f4a76e65cb7_reverse.png"
+					],
+					"query": [
+						{
+							"key": "max-size",
+							"value": "31457280"
+						},
+						{
+							"key": "method",
+							"value": "PUT"
+						},
+						{
+							"key": "retries",
+							"value": "1"
+						},
+						{
+							"key": "token",
+							"value": "856820d9618b417b0d996ce6b8625b41558feb8839b32e5ae58c5ac2b7bcb982"
+						},
+						{
+							"key": "Expires",
+							"value": "1698110709"
+						},
+						{
+							"key": "Signature",
+							"value": "GAX5Z-Xlw5TYPzOaCdNTjXhcM4l6fJuGPEEqK3XZt6PWDbm5xgK1dwrR9ag1sYF0storJucE7aJffb96irhIwj2QWJ1XpKwUCm~KpwwtWNSyG7F8PyK0XUuXfP8UUkvOP9hLnaYXtPo2-20qqkdXcDffKihkm9pZ1LM6mi-92wt2VVQljkhNPkfpA0js~uqe9qT3O4TZhc4pMRuPK-EywXWk6jQPwu9qAF3MjK1gOpluA6fyqtbCvb7EDPmngQ5k4OhWp-kPM4e3Z8fhiSWzoG3pAdwkd4TKXlhEcZqOIqe7uvaB~DhHeKe5U09wp0eyJpFG9wLYv~kaUUkfkySdng__"
+						},
+						{
+							"key": "Key-Pair-Id",
+							"value": "APKAIKAXK7MMJ6HWOZZA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "validacioncedula",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Truora-API-Key",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiIiwiYWRkaXRpb25hbF9kYXRhIjoie30iLCJjbGllbnRfaWQiOiJUQ0kzY2EzNDFjNGQ5Njc2MDQ2ZjI2ZDFmOGJkMDQyMDBjNyIsImV4cCI6MzI3MzU4ODMwNCwiZ3JhbnQiOiIiLCJpYXQiOjE2OTY3ODgzMDQsImlzcyI6Imh0dHBzOi8vY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdXMtZWFzdC0xXzZRcXBPblF2NyIsImp0aSI6IjM0ZTRhYjc3LTQxYjMtNDIxMy04N2Q4LWZhMDI5M2FmOGQyYSIsImtleV9uYW1lIjoicHJ1ZWJhX3RlY25pY2FfaGFtYWwiLCJrZXlfdHlwZSI6ImJhY2tlbmQiLCJ1c2VybmFtZSI6InRydW9yYW5hb3MtcHJ1ZWJhX3RlY25pY2FfaGFtYWwifQ.gpyfPT-DprI3s3Fah7--46sr-ZkGWduJx3L_b9zmWA4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.validations.truora.com/v1/validations?show_details=true&validation_id=VLDd30de3355a69b1bbe76574ee2c195446",
+					"protocol": "https",
+					"host": [
+						"api",
+						"validations",
+						"truora",
+						"com"
+					],
+					"path": [
+						"v1",
+						"validations"
+					],
+					"query": [
+						{
+							"key": "show_details",
+							"value": "true"
+						},
+						{
+							"key": "validation_id",
+							"value": "VLDd30de3355a69b1bbe76574ee2c195446"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
